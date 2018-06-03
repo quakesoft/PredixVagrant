@@ -14,7 +14,7 @@ This will take up to 15 minutes depending on your connection speed
 
 5. Run:
 ```
-sudo gulp
+cd ~/predixwork/predix-webapp-starter/ && sudo gulp
 ```
 
 6. Navigate to <http://localhost:5050/> on your browser, check the app served here looks like the [Reference Application](https://rmd-ref-app.run.aws-usw02-pr.ice.predix.io), user: `app_user_1`, pass: `App_User_111`

@@ -1,5 +1,4 @@
-
-sudo yum update
+#sudo yum update
 sudo yum install -y wget
 sudo yum install -y git-core
 
@@ -29,8 +28,8 @@ sudo npm install -g sass
 sudo npm update -g
 
 
-mkdir /vagrant/predixwork
-cd /vagrant/predixwork
+mkdir ~/predixwork
+cd ~/predixwork
 git clone https://github.com/PredixDev/predix-webapp-starter
 cd predix-webapp-starter
 sudo npm install
