@@ -12,7 +12,7 @@ This will take up to 15 minutes depending on your connection speed
 
 4. Check prompt changed from `c:\predixvm>` to `[vagrant@localhost ~]$`, this is the bash shell of the VM
 
-5. Run
+5. Run:
 ```
 sudo gulp
 ```
