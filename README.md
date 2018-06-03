@@ -2,7 +2,7 @@
 
 1. Install [Vagrant](https://www.vagrantup.com/)
 
-2. Create a working directory, `c:\predixvm` for example, and copy [Vagrantfile](https://raw.githubusercontent.com/quakesoft/PredixVagrant/master/Vagrantfile) and [predix.sh](https://raw.githubusercontent.com/quakesoft/PredixVagrant/master/predix.sh) files from github to this directory
+2. Create a working directory, `c:\predixvm` for example, and copy [Vagrantfile](https://raw.githubusercontent.com/quakesoft/PredixVagrant/master/Vagrantfile) and [predix.sh](https://raw.githubusercontent.com/quakesoft/PredixVagrant/master/predix.sh) files from above to this directory
 
 3. On the command prompt, run:
 ```
@@ -10,7 +10,7 @@ cd c:\predixvm && vagrant up && vagrant ssh
 ```
 This will take up to 15 minutes depending on your connection speed
 
-4. Check prompt changed from `c:\predixvm` to `[vagrant@localhost ~]$`, this is the bash shell of the VM
+4. Check prompt changed from `c:\predixvm>` to `[vagrant@localhost ~]$`, this is the bash shell of the VM
 
 5. Run
 ```
