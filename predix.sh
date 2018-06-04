@@ -28,8 +28,7 @@ sudo npm install -g sass
 sudo npm update -g
 
 
-mkdir ~/predixwork
-cd ~/predixwork
+cd /home/vagrant/
 git clone https://github.com/PredixDev/predix-webapp-starter
 cd predix-webapp-starter
 sudo npm install
